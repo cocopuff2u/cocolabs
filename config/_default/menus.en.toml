@@ -1,0 +1,47 @@
+[[main]]
+name = "Mac Admins Resources"
+pageRef = "mac_admins"
+identifier = "RQmXfFszbk"
+weight = 3
+
+[[main]]
+name = "About Us"
+pageRef = "about_us"
+identifier = "xNcxA0DK15"
+weight = 4
+
+[[main]]
+name = "Home"
+pageRef = "/"
+identifier = "hz46IOYJ0W"
+weight = 1
+
+[[main]]
+name = "Contact"
+pageRef = "contact"
+identifier = "3AhqIcTUHF"
+weight = 5
+
+[[main]]
+name = "Future Projects"
+pageRef = "future_projects"
+identifier = "czuvhlA9Fk"
+weight = 2
+
+[[footer]]
+name = "About Us"
+pageRef = "/about_us"
+identifier = "UWm0ZIhOHo"
+weight = 2
+
+[[footer]]
+name = "Home"
+pageRef = "/"
+identifier = "YCmDAYNJLS"
+weight = 1
+
+[[footer]]
+name = "Contact"
+pageRef = "contact"
+identifier = "fl1PDrMzsO"
+weight = 3

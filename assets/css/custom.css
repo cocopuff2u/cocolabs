@@ -1,0 +1,71 @@
+.prose {
+    max-width: 100%;
+  }
+  
+  .max-w-prose {
+    max-width: 100%;
+  }
+  
+  .footer-icons {
+    font-size: 2.125rem;
+  }
+  
+  /* Target all images with zoom effects */
+img {
+    pointer-events: none; /* Disable clicking or zooming */
+    cursor: default; /* Change cursor to default */
+  }
+  
+  /* If you know the class or ID of the zooming element, disable it */
+  .zoom-enabled img {
+    pointer-events: none; /* Disable click event */
+  }
+
+
+/* Home Page Projects */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .project-card {
+    width: calc(50% - 10px); /* Ensures 2 per row */
+    background: inherit; /* Light background color for each box */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.845);
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .project-card img {
+    width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  /* Ensure the h1, h2, h3 colors are preserved or customized */
+  .project-card h1, .project-card h2, .project-card h3 {
+    color: inherit; /* Inherits the color from the parent or document styles */
+    font-family: inherit; /* Inherits the font family */
+    font-size: xx-large; /* Optional: make sure the font size remains consistent */
+    font-weight: bold; /* Apply bold font weight */
+  }
+  
+  .project-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-card .links a {
+    display: inline-block;
+    margin: 5px;
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .project-card .links a:hover {
+    text-decoration: underline;
+  }
+  
