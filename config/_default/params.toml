@@ -1,7 +1,7 @@
 colorScheme = "neon"
 defaultAppearance = "light"
 autoSwitchAppearance = false
-enableSearch = true
+enableSearch = false
 enableCodeCopy = false
 replyByEmail = false
 disableImageOptimization = false
