@@ -1,5 +1,5 @@
 colorScheme = "neon"
-defaultAppearance = "dark"
+defaultAppearance = "light"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = false

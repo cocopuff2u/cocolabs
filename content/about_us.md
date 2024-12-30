@@ -23,10 +23,25 @@ While it’s a solo endeavor for now, there’s plenty of room for expansion, co
        alt="Cody K." 
        style="width: 150px; height: 150px; border-radius: 50%; border: 4px solid rgb(237, 232, 249); margin-bottom: 20px; transition: transform 0.3s ease-in-out;">
   <h3 style="font-family: 'Arial', sans-serif; font-size: 1.8em; transition: color 0.3s;">Cody K. (aka cocopuff2u)</h3>
-      <div class="links">
-      <a href="https://linkedin.com/in/cocopuff2u" target="_blank">LinkedIn</a> |
-      <a href="https://mofa.cocolabs.dev" target="_blank">MOFA Website</a>
-    </div>
+<!-- Social Links Section -->
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <!-- LinkedIn Section -->
+  <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <a href="https://www.linkedin.com/in/cocopuff2u" style="text-decoration: none; color: rgb(29, 29, 29); font-size: 1.2rem; transition: color 0.3s; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+      <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/refs/heads/master/PNG/Color/LinkedIN.png" alt="LinkedIn Icon" style="width: 40px; margin-bottom: 10px;">
+      LinkedIn
+    </a>
+  </div>
+
+  <!-- GitHub Section -->
+  <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <a href="https://github.com/cocopuff2u" style="text-decoration: none; color: rgb(29, 29, 29); font-size: 1.2rem; transition: color 0.3s; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+      <img src="https://raw.githubusercontent.com/dheereshagrwal/colored-icons/refs/heads/master/public/logos/github/github.svg" alt="GitHub Icon" style="width: 40px; margin-bottom: 11px;">
+      GitHub
+    </a>
+  </div>
+</div>
+
   <p style="margin-top: 20px; font-size: 1.15em; color: rgb(29, 29, 29); line-height: 1.6;">
     Hi, I’m Cody—a Mac admin at NIWC Atlantic 🖥️ with a deep-rooted passion for technology and problem-solving. Over the years, I’ve gained invaluable experience working in diverse environments, including higher education 🎓, local and federal government 🏛️, and high-compliance sectors 🔒. I take pride in leveraging my expertise to streamline workflows, manage complex systems, and contribute to open-source projects that benefit the wider community 🌍.
   </p>
