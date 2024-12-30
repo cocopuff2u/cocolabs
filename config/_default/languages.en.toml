@@ -10,10 +10,10 @@ isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
 logo = "cocolab_logo_transparent.png"
-description = "Open Source Innovation for Apple Enthusiasts."
+description = "Empowering Mac Admins with Open-Source Solutions."
 
 [params.author]
   name = "CoCoLabs"
   email = "cocopuff2u@yahoo.com"
   image = "cocolab_logo_transparent.png"
-  headline = "Open Source Innovation for Apple Enthusiasts."
+  headline = "OEmpowering Mac Admins with Open-Source Solutions."
