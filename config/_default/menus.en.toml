@@ -1,8 +1,8 @@
-[[main]]
-name = "Mac Admins Resources"
-pageRef = "mac_admins"
-identifier = "RQmXfFszbk"
-weight = 3
+#[[main]]
+#name = "Mac Admins Resources"
+#pageRef = "mac_admins"
+#identifier = "RQmXfFszbk"
+#weight = 3
 
 [[main]]
 name = "About Us"
@@ -23,7 +23,7 @@ identifier = "3AhqIcTUHF"
 weight = 5
 
 [[main]]
-name = "Future Projects"
+name = "Projects"
 pageRef = "future_projects"
 identifier = "czuvhlA9Fk"
 weight = 2

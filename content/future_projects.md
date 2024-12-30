@@ -1,9 +1,35 @@
-<div style="text-align: center;">
+---
+showHero: true
+showTableOfContents: false
+---
 
-# Projects  
+<div style="text-align: center; margin-top: 20px; font-family: 'Arial', sans-serif;">
 
-Welcome to **My Projects**! This page highlights ongoing progress, future initiatives, and completed milestones. Explore the timelines below to see what we’re working on, what’s coming next, and what we’ve achieved so far.  
+{{< typeit 
+  tag=h1
+  speed=110
+  lifeLike=true
+  loop=true
+  style="font-weight: bold; color: #2c3e50;"
+>}}
+🚀 Projects 🚀
+{{< /typeit >}}
+
+<p style="font-size: 1.2rem; line-height: 1.8; margin-top: 15px;">
+  Welcome to <strong>My Projects</strong>! Here, you'll find an overview of our <em>current progress</em>, <em>upcoming plans</em>, and <em>accomplished milestones</em>. 
+  Scroll down to explore what’s in motion, what’s on the horizon, and what’s already been achieved! 
+</p>
+
+<div style="margin-top: 10px;">
+  <a href="#active-projects" style="margin: 0 10px; font-weight: bold; text-decoration: none;">Active Projects</a>
+  |
+  <a href="#upcoming-projects" style="margin: 0 10px;font-weight: bold; text-decoration: none;">Upcoming Projects</a>
+  |
+  <a href="#completed-projects" style="margin: 0 10px; font-weight: bold; text-decoration: none;">Completed Projects</a>
 </div>
+
+</div>
+
 
 ---
 

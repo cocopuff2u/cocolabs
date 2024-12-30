@@ -68,4 +68,20 @@ img {
   .project-card .links a:hover {
     text-decoration: underline;
   }
+
+/* links outside project-card */
+  .links a {
+    display: inline-block;
+    margin: 5px;
+    color: #0073e6;
+    text-decoration: none;
+  }
   
+  .links a:hover {
+    text-decoration: underline;
+  }
+
+  /* Increase the default font size */
+html {
+  font-size: 13pt;
+}

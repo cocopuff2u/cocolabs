@@ -9,11 +9,11 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-logo = "blowfish_logo_transparent.png"
+logo = "cocolab_logo_transparent.png"
 description = "Open Source Innovation for Apple Enthusiasts."
 
 [params.author]
   name = "CoCoLabs"
   email = "cocopuff2u@yahoo.com"
-  image = "img/blowfish_logo.png"
+  image = "cocolab_logo_transparent.png"
   headline = "Open Source Innovation for Apple Enthusiasts."
