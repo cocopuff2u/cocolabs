@@ -29,7 +29,7 @@ showTableOfContents: true
     <h1>BOFA</h1>
     <p>A resource for Mac admins providing raw data feeds, tools, and guides for integrating browser technologies into Apple environments.</p>
     <div style="text-align: center;">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/BOFA/refs/heads/main/.github/images/bofa_logo.png" alt="BOFA Logo" style="width: 100px; display: block; margin: 0 auto;"/>
+      <img src="cocolab_logo_transparent.png" alt="BOFA Logo" style="width: 100px; display: block; margin: 0 auto;"/>
     </div>
     <div style="text-align: center;">
       <a href="https://github.com/cocopuff2u/bofa" target="_blank" style="text-decoration: none;">
