@@ -36,9 +36,8 @@ showTableOfContents: false
 ## Active Projects  
 
 We’re currently focused on enhancing and gathering feedback for:  
-- **MOFA GitHub** 🖥️  
-- **MOFA Website** 🌐  
-- **CoCoLabs Website** 🏗️  
+- **BOFA GitHub** 🖥️  
+- **MOFA Github/Website** 🌐  
  
 ---
 
@@ -46,8 +45,8 @@ We’re currently focused on enhancing and gathering feedback for:
 
 {{< timeline >}}  
 
-{{< timelineItem icon="edit" header="BOFA GitHub" badge="February 2025" subheader="" >}}  
-Creating a next-generation browser to replace macadmins.software, featuring raw feeds and live, auto-updating data streams. 🔄  
+{{< timelineItem icon="edit" header="BOFA Website" badge="March 2025" subheader="" >}}  
+Launched a user-friendly website for the BOFA GitHub project. 🌍  
 {{< github repo="cocopuff2u/bofa" >}}  
 {{< /timelineItem >}}  
 
@@ -59,9 +58,15 @@ Creating a next-generation browser to replace macadmins.software, featuring raw 
 
 {{< timeline >}}  
 
-{{< timelineItem icon="check" header="MOFA GitHub" badge="November 2024" subheader="" >}}  
-Developed a replacement for macadmins.software to provide raw feeds and live, auto-updating data. ✅  
-{{< github repo="cocopuff2u/mofa" >}}  
+{{< timelineItem icon="check" header="BOFA GitHub" badge="February 2025" subheader="" >}}  
+Creating a next-generation browser to mimic macadmins.software, featuring raw feeds and live, auto-updating data streams. 🔄  
+{{< github repo="cocopuff2u/bofa" >}}  
+{{< /timelineItem >}}  
+
+{{< timelineItem icon="check" header="CoCoLabs Website" badge="January 2025" >}}  
+Established a central hub for all projects, with subdomains for each initiative. 🏠 <br>  
+<a href="https://cocolabs.dev" target="_blank">{{< icon "link" >}} Visit CoCoLabs Website</a>  
+{{< github repo="cocopuff2u/cocolabs" >}}  
 {{< /timelineItem >}}  
 
 {{< timelineItem icon="check" header="MOFA Website" badge="December 2024" subheader="" >}}  
@@ -70,10 +75,9 @@ Launched a user-friendly website for the MOFA GitHub project. 🌍 <br>
 {{< github repo="cocopuff2u/MOFA_WEBSITE" >}}  
 {{< /timelineItem >}}  
 
-{{< timelineItem icon="check" header="CoCoLabs Website" badge="January 2025" >}}  
-Established a central hub for all projects, with subdomains for each initiative. 🏠 <br>  
-<a href="https://cocolabs.dev" target="_blank">{{< icon "link" >}} Visit CoCoLabs Website</a>  
-{{< github repo="cocopuff2u/cocolabs" >}}  
+{{< timelineItem icon="check" header="MOFA GitHub" badge="November 2024" subheader="" >}}  
+Developed a replacement for macadmins.software to provide raw feeds and live, auto-updating data. ✅  
+{{< github repo="cocopuff2u/mofa" >}}  
 {{< /timelineItem >}}  
 
 {{< /timeline >}}  
