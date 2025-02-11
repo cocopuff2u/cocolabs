@@ -1,8 +1,8 @@
 ---
-                title: "omarohn.de"
-                tags: [個人サイト]
-                externalUrl: "https://omarohn.de"
-                weight: 111
+                title: "StepaniaH"
+                tags: [个人网站, 博客]
+                externalUrl: "https://stepaniah.me"
+                weight: 941
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

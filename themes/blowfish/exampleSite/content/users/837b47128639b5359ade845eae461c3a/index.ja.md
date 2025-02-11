@@ -1,8 +1,8 @@
 ---
-                title: "kylemalloy.com"
-                tags: [Personal site]
-                externalUrl: "https://kylemalloy.com"
-                weight: 521
+                title: "mrtruongvu.com"
+                tags: [パーソナルサイト, ブログ]
+                externalUrl: "https://mrtruongvu.com"
+                weight: 931
                 showDate: false
                 showAuthor: false
                 showReadingTime: false
@@ -11,3 +11,4 @@
                 showViews: false
                 layoutBackgroundHeaderSpace: false
                 ---
+

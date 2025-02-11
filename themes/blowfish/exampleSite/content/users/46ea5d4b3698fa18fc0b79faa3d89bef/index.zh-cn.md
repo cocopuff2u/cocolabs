@@ -1,8 +1,8 @@
 ---
-                title: "v-y-s.com"
-                tags: [個人サイト]
-                externalUrl: "https://v-y-s.com/"
-                weight: 551
+                title: "zzzhome"
+                tags: [个人网站, 博客]
+                externalUrl: "https://zzzhome.cc/"
+                weight: 981
                 showDate: false
                 showAuthor: false
                 showReadingTime: false

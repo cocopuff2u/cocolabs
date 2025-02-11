@@ -1,8 +1,8 @@
 ---
-                title: "omarohn.de"
-                tags: [Personal site]
-                externalUrl: "https://omarohn.de"
-                weight: 111
+                title: "Lazy Product Reviews"
+                tags: [Sito personale, Blog]
+                externalUrl: "https://lazyproductreviews.com/"
+                weight: 971
                 showDate: false
                 showAuthor: false
                 showReadingTime: false
@@ -11,3 +11,4 @@
                 showViews: false
                 layoutBackgroundHeaderSpace: false
                 ---
+

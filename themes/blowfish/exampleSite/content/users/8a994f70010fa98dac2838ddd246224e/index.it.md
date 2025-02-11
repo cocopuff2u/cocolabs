@@ -1,8 +1,8 @@
 ---
-                title: "kylemalloy.com"
-                tags: [個人サイト]
-                externalUrl: "https://kylemalloy.com"
-                weight: 521
+                title: "WillHack - service for reality hackers"
+                tags: [Blog tecnologico, Notizie che contano il blog, AI]
+                externalUrl: "https://willhack.top/"
+                weight: 961
                 showDate: false
                 showAuthor: false
                 showReadingTime: false
