@@ -27,6 +27,9 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Add CNAME file
+        run: echo 'cocolabs.dev' > ./public/CNAME  # Ensure this matches your domain name
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
