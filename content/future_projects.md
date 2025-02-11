@@ -47,7 +47,7 @@ We’re currently focused on enhancing and gathering feedback for:
 
 {{< timelineItem icon="edit" header="BOFA Website" badge="March 2025" subheader="" >}}  
 Launched a user-friendly website for the BOFA GitHub project. 🌍  
-{{< github repo="cocopuff2u/bofa" >}}  
+{{< github repo="cocopuff2u/bofa_website" >}}  
 {{< /timelineItem >}}  
 
 {{< /timeline >}}  
