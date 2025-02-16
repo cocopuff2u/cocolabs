@@ -36,7 +36,7 @@ While it’s a solo endeavor for now, there’s plenty of room for expansion, co
   <!-- GitHub Section -->
   <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
     <a href="https://github.com/cocopuff2u" style="text-decoration: none; color: rgb(29, 29, 29); font-size: 1.2rem; transition: color 0.3s; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
-      <img src="https://raw.githubusercontent.com/dheereshagrwal/colored-icons/refs/heads/master/public/logos/github/github.svg" alt="GitHub Icon" style="width: 40px; margin-bottom: 11px;">
+      <img src="https://raw.githubusercontent.com/dheereshagrwal/colored-icons/refs/heads/master/public/logos/technology/github/github.svg" alt="GitHub Icon" style="width: 40px; margin-bottom: 11px;">
       GitHub
     </a>
   </div>
