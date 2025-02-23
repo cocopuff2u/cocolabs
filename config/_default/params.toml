@@ -108,7 +108,7 @@ cardViewScreenWidth = false
   identifier = "cocopuff2u"
   globalWidget = true
   globalWidgetMessage = ""
-  globalWidgetColor = "#fffeff"
+  globalWidgetColor = "#FFDD00"
   globalWidgetPosition = "Right"
 
 [verification]
