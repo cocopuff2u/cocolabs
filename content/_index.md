@@ -38,7 +38,7 @@ showTableOfContents: true
     </div>
     <div class="links">
       <a href="https://github.com/cocopuff2u/bofa" target="_blank">BOFA Repo</a>
-      <a href="https://www.anotherdeveloperwebsite.com" target="_blank">BOFA Website</a>
+      <a href="https://bofa.cocolabs.dev" target="_blank">BOFA Website</a>
     </div>
   </div>
 </div>
