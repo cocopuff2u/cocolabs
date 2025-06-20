@@ -7,8 +7,8 @@ showTableOfContents: true
 
 ---
 
-<div class="projects-container">
-  <div class="project-card">
+<div class="projects-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 32px;">
+  <div class="project-card" style="flex: 1 1 300px; max-width: 400px;">
     <h1>MOFA</h1>
     <p>A resource for Mac admins providing raw data feeds, tools, and guides for integrating Microsoft technologies into Apple environments.</p>
     <div style="text-align: center;">
@@ -25,7 +25,7 @@ showTableOfContents: true
     </div>
   </div>
 
-  <div class="project-card">
+  <div class="project-card" style="flex: 1 1 300px; max-width: 400px;">
     <h1>BOFA</h1>
     <p>A resource for Mac admins providing raw data feeds, tools, and guides for integrating browser technologies into Apple environments.</p>
     <div style="text-align: center;">
@@ -39,6 +39,25 @@ showTableOfContents: true
     <div class="links">
       <a href="https://github.com/cocopuff2u/bofa" target="_blank">BOFA Repo</a>
       <a href="https://bofa.cocolabs.dev" target="_blank">BOFA Website</a>
+    </div>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: center; margin-top: 32px;">
+  <div class="project-card" style="max-width: 400px;">
+    <h1>CaC for Mac</h1>
+    <p>A comprehensive guide for Mac admins and users on setting up and using smart cards with macOS.</p>
+    <div style="text-align: center;">
+      <img src="https://raw.githubusercontent.com/cocopuff2u/CAC_FOR_MAC/refs/heads/main/.github/imgs/cacformac.png" alt="CaC for Mac Logo" style="width: 100px; display: block; margin: 0 auto;"/>
+    </div>
+    <div style="text-align: center;">
+      <a href="https://github.com/cocopuff2u/CAC_FOR_MAC" target="_blank" style="text-decoration: none;">
+        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cocopuff2u/CAC_FOR_MAC" style="transform: scale(0.8); display: inline-block;" />
+      </a>
+    </div>
+    <div class="links">
+      <a href="https://github.com/cocopuff2u/CAC_FOR_MAC" target="_blank">CaC for Mac Repo</a>
+      <a href="https://cacformac.com" target="_blank">CaC for Mac Website</a>
     </div>
   </div>
 </div>
