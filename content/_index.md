@@ -66,8 +66,8 @@ showTableOfContents: true
 
 ---
 
-<div class="projects-container">
-  <div class="project-card">
+<div class="projects-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 32px;">
+  <div class="project-card" style="flex: 1 1 300px; max-width: 400px;">
     <h1>SOFA</h1>
     <p>SOFA supports MacAdmins by efficiently tracking and surfacing information on updates for macOS and iOS.</p>
     <div style="text-align: center;">
@@ -81,6 +81,22 @@ showTableOfContents: true
     <div class="links">
       <a href="https://github.com/macadmins/sofa" target="_blank">SOFA Repo</a>
       <a href="https://sofa.macadmins.io" target="_blank">SOFA Website</a>
+    </div>
+  </div>
+  <div class="project-card" style="flex: 1 1 300px; max-width: 400px;">
+    <h1>MSCP</h1>
+    <p>MSCP helps automate security guidance, create baselines, and audit macOS systems for compliance.</p>
+    <div style="text-align: center;">
+      <img src="https://raw.githubusercontent.com/usnistgov/macos_security/refs/heads/main/docs/src/assets/logo.png" alt="macOS Security Compliance Project Logo" style="width: 90px; display: block; margin: 0 auto;"/>
+    </div>
+    <div style="text-align: center;">
+      <a href="https://github.com/usnistgov/macos_security" target="_blank" style="text-decoration: none;">
+        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/usnistgov/macos_security" style="transform: scale(0.8); display: inline-block;" />
+      </a>
+    </div>
+    <div class="links">
+      <a href="https://github.com/usnistgov/macos_security" target="_blank">MSCP Repo</a>
+      <a href="https://pages.nist.gov/macos_security/" target="_blank">MSCP Website</a>
     </div>
   </div>
 </div>

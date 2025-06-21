@@ -32,7 +32,7 @@ img {
   
   .project-card {
     width: calc(50% - 10px); /* Ensures 2 per row */
-    background: inherit; /* Light background color for each box */
+    background: #f8f9fa; /* Light background for light mode */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.845);
@@ -67,6 +67,11 @@ img {
   
   .project-card .links a:hover {
     text-decoration: underline;
+  }
+
+  .dark .project-card {
+    background: #512B7A; /* Dark background for dark mode */
+    color: #ffffff; /* Ensure text color is readable */
   }
 
 /* links outside project-card */
