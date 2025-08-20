@@ -1,8 +1,8 @@
 ---
-                title: "Everybody Wants Some"
-                tags: [博客, 技术, 游戏开发]
-                externalUrl: "https://ews.ink/"
-                weight: 841
+                title: "caytejohn.xyz"
+                tags: [Personal site]
+                externalUrl: "https://caytejohn.xyz"
+                weight: 105
                 showDate: false
                 showAuthor: false
                 showReadingTime: false
@@ -11,4 +11,3 @@
                 showViews: false
                 layoutBackgroundHeaderSpace: false
                 ---
-

@@ -1,8 +1,8 @@
 ---
-                title: "ZSL"
-                tags: [博客, 个人网站]
-                externalUrl: "https://blog.zsl0621.cc/"
-                weight: 941
+                title: "abantikabhuti.github.io"
+                tags: [Sito personale, Portfolio]
+                externalUrl: "https://abantikabhuti.github.io"
+                weight: 103
                 showDate: false
                 showAuthor: false
                 showReadingTime: false
