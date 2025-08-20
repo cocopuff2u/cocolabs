@@ -36,7 +36,8 @@ showTableOfContents: false
 ## Active Projects  
 
 We’re currently focused on enhancing and gathering feedback for:  
-- **CAC For Mac Website** 🖥️  
+- **Building a mSCP App** 🖥️  
+- **Update existing projects** 🖥️ 
  
 ---
 
@@ -44,10 +45,8 @@ We’re currently focused on enhancing and gathering feedback for:
 
 {{< timeline >}}  
 
-{{< timelineItem icon="edit" header="CAC FOR MAC Website" badge="July 2025" subheader="" >}}  
-Launch a user-friendly website for setting up smart cards on a MacOS <br>
-<a href="https://cacformac.com" target="_blank">{{< icon "link" >}} Visit CACForMAC Website</a>
-{{< github repo="cocopuff2u/CAC_FOR_MAC" showThumbnail=false >}}  
+{{< timelineItem icon="edit" header="mSCP App" badge="August 2025" subheader="" >}}  
+I am currently developing my first app designed to empower Mac Admins to create compliances dynamically using mSCP. This project is tailored for the upcoming mSCP 2.0 release and will introduce innovative features not found in any existing tool. The app will enable users to import existing compliances, modify both imported and newly created compliances, build custom rules, and seamlessly provide feedback to the mSCP team for expanding compliance options.
 {{< /timelineItem >}}  
 
 {{< /timeline >}}  
@@ -58,14 +57,22 @@ Launch a user-friendly website for setting up smart cards on a MacOS <br>
 
 {{< timeline >}}  
 
-{{< timelineItem icon="edit" header="BOFA Website" badge="March 2025" subheader="" >}}  
+{{< timelineItem icon="check" header="mSCP Website" badge="July 2025" subheader="" >}}  
+Redesigned the mSCP website to be more user friendly along with added content<br>
+<a href="https://pages.nist.gov/macos_security/" target="_blank">{{< icon "link" >}} Visit mSCP Website</a>
+{{< github repo="usnistgov/macos_security" showThumbnail=false >}}  
+{{< /timelineItem >}} 
+
+{{< timelineItem icon="check" header="CAC FOR MAC Website" badge="July 2025" subheader="" >}}  
+Launched a user-friendly website for setting up smart cards on a MacOS <br>
+<a href="https://cacformac.com" target="_blank">{{< icon "link" >}} Visit CACForMAC Website</a>
+{{< github repo="cocopuff2u/CAC_FOR_MAC" showThumbnail=false >}}  
+{{< /timelineItem >}} 
+
+{{< timelineItem icon="check" header="BOFA Website" badge="March 2025" subheader="" >}}  
 Launched a user-friendly website for the BOFA GitHub project. 🌍    
 {{< github repo="cocopuff2u/bofa_website" showThumbnail=false >}}  
-{{< /timelineItem >}}  
-
-{{< /timeline >}}  
-
-{{< timeline >}}  
+{{< /timelineItem >}}   
 
 {{< timelineItem icon="check" header="BOFA GitHub" badge="February 2025" subheader="" >}}  
 Creating a next-generation browser to mimic macadmins.software, featuring raw feeds and live, auto-updating data streams. 🔄  
