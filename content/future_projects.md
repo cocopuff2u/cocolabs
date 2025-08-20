@@ -1,6 +1,6 @@
 ---
 showHero: true
-showTableOfContents: false
+showTableOfContents: true
 ---
 
 <div style="text-align: center; margin-top: 20px; font-family: 'Arial', sans-serif;">
