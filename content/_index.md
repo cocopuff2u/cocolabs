@@ -71,7 +71,7 @@ showTableOfContents: true
     <h1>SOFA</h1>
     <p>SOFA supports MacAdmins by efficiently tracking and surfacing information on updates for macOS and iOS.</p>
     <div style="text-align: center;">
-      <img src="https://raw.githubusercontent.com/macadmins/sofa/refs/heads/main/images/custom_logo.png" alt="SOFA Logo" style="width: 100px; display: block; margin: 0 auto;"/>
+      <img src="https://raw.githubusercontent.com/macadmins/sofa/refs/heads/main/public/custom_logo.png" alt="SOFA Logo" style="width: 100px; display: block; margin: 0 auto;"/>
     </div>
     <div style="text-align: center;">
       <a href="https://github.com/macadmins/sofa" target="_blank" style="text-decoration: none;">
@@ -87,7 +87,7 @@ showTableOfContents: true
     <h1>MSCP</h1>
     <p>MSCP helps automate security guidance, create baselines, and audit macOS systems for compliance.</p>
     <div style="text-align: center;">
-      <img src="https://raw.githubusercontent.com/usnistgov/macos_security/refs/heads/main/docs/src/assets/logo.png" alt="macOS Security Compliance Project Logo" style="width: 90px; display: block; margin: 0 auto;"/>
+      <img src="https://raw.githubusercontent.com/usnistgov/macos_security/refs/heads/main/templates/images/mscp_logo.png" alt="macOS Security Compliance Project Logo" style="width: 90px; display: block; margin: 0 auto;"/>
     </div>
     <div style="text-align: center;">
       <a href="https://github.com/usnistgov/macos_security" target="_blank" style="text-decoration: none;">
