@@ -43,7 +43,7 @@ showTableOfContents: true
   </div>
 </div>
 
-<div style="display: flex; justify-content: center; margin-top: 32px;">
+<div style="display: flex; justify-content: center; margin-top: 32px; gap: 32px;">
   <div class="project-card" style="max-width: 400px;">
     <h1>CaC for Mac</h1>
     <p>A comprehensive guide for Mac admins and users on setting up and using smart cards with macOS.</p>
@@ -58,6 +58,21 @@ showTableOfContents: true
     <div class="links">
       <a href="https://github.com/cocopuff2u/CAC_FOR_MAC" target="_blank">CaC for Mac Repo</a>
       <a href="https://cacformac.com" target="_blank">CaC for Mac Website</a>
+    </div>
+  </div>
+  <div class="project-card" style="max-width: 400px;">
+    <h1>M.A.C.E. App</h1>
+    <p>A modern macOS app for Mac admins to easily create, manage, and audit compliance baselines using NIST’s mSCP 2.0.</p>
+    <div style="text-align: center;">
+      <img src="https://raw.githubusercontent.com/MACE-App/MACE/refs/heads/main/.github/images/App_Icon.png" alt="M.A.C.E. App Logo" style="width: 100px; display: block; margin: 0 auto;"/>
+    </div>
+    <div style="text-align: center;">
+      <a href="https://github.com/cocopuff2u/MACE" target="_blank" style="text-decoration: none;">
+        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Mace-App/MACE" style="transform: scale(0.8); display: inline-block;" />
+      </a>
+    </div>
+    <div class="links">
+      <a href="https://github.com/Mace-App/MACE" target="_blank">M.A.C.E. Repo</a>
     </div>
   </div>
 </div>

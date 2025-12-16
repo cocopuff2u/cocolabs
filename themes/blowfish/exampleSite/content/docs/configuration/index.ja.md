@@ -27,14 +27,14 @@ npx blowfish-tools
 デフォルトのテーマ設定は各ファイルに記載されているため、必要に応じて設定を自由に調整できます。
 
 {{< alert >}}
-[インストール手順]({{< ref "/docs/installation#set-up-theme-configuration-files" >}})で概説されているように、Hugo プロジェクトの `config/_default/` フォルダ内のファイルを修正し、プロジェクトルートの `config.toml` ファイルを削除することで、テーマ設定を調整する必要があります。
+[インストール手順]({{< ref "/docs/installation#set-up-theme-configuration-files" >}})で概説されているように、Hugo プロジェクトの `config/_default/` フォルダ内のファイルを修正し、プロジェクトルートの `hugo.toml` ファイルを削除することで、テーマ設定を調整する必要があります。
 {{< /alert >}}
 
 ## サイト設定
 
 テーマ全体で標準の Hugo 設定変数が適用されますが、最適なエクスペリエンスを得るために設定する必要がある特定の事項があります。
 
-サイト設定は `config/_default/config.toml` ファイルで管理されます。 下の表は、Blowfish が活用するすべての設定の概要を示しています。
+サイト設定は `config/_default/hugo.toml` ファイルで管理されます。 下の表は、Blowfish が活用するすべての設定の概要を示しています。
 
 この表で提供されている変数名は、TOML データ構造を簡素化するためにドット表記を使用していることに注意してください（つまり、 `outputs.home` は `[outputs] home` を指します）。
 
@@ -168,12 +168,13 @@ Blowfish は、テーマの機能を制御する多数の設定パラメータ�
 
 | 名前 | デフォルト | 説明 |
 | --- | --- | --- |
-| `colorScheme` | `"blowfish"` | 使用するテーマのカラースキームです。有効な値は、`blowfish`（デフォルト）、`avocado`、`fire`、`ocean`、`forest`、`princess`、`neon`、`bloody`、`terminal`、`marvel`、`noir`、`autumn`、`congo`、`slate` です。詳細については、[カラースキーム]({{< ref "getting-started#カラースキーム" >}})セクションを参照してください。 |
+| `colorScheme` | `"blowfish"` | 使用するテーマのカラースキームです。有効な値は、`blowfish`（デフォルト）、`avocado`、`fire`、`ocean`、`forest`、`princess`、`neon`、`bloody`、`terminal`、`marvel`、`noir`、`autumn`、`congo`、`slate`, `github`, `one-light` です。詳細については、[カラースキーム]({{< ref "getting-started#カラースキーム" >}})セクションを参照してください。 |
 | `defaultAppearance` | `"light"` | デフォルトのテーマの外観です。`light` または `dark` のいずれかです。 |
 | `autoSwitchAppearance` | `true` | 訪問者のオペレーティングシステムの設定に基づいてテーマの外観を自動的に切り替えるかどうかです。`false` に設定すると、サイトは常に `defaultAppearance` を使用します。 |
 | `enableA11y` | `false` | アクセシビリティ切り替えボタンを有効にするかどうか。 |
 | `enableSearch` | `false` | サイト内検索が有効かどうかです。`true` に設定すると、検索機能が有効になります。検索機能は、[サイト設定](#サイト設定)の `outputs.home` 設定が正しく設定されているかどうかに依存することに注意してください。 |
 | `enableCodeCopy` | `false` | `<code>` ブロックのクリップボードへのコピーボタンを有効にするかどうかです。コードコピーが正しく機能するには、`highlight.noClasses` パラメータを `false` に設定する必要があります。以下の[その他の設定ファイル](#その他の設定ファイル)について読んでください。 |
+| `enableStructuredBreadcrumbs` | `false` | SEO のために [BreadcrumbList](https://developers.google.com/search/docs/appearance/structured-data/breadcrumb) を追加するかどうかを示す。コンテンツパスが URL と一致しない場合例えば複雑な [URL 設定](https://gohugo.io/content-management/urls/) では有効化しないことを示す。 |
 | `mainSections` | _未設定_ | 最近の記事リストに表示するセクションです。指定しない場合は、記事数が最も多いセクションが使用されます。 |
 | `showViews` | _未設定_ | 記事とリストの表示回数を表示するかどうかです。これには Firebase 統合を有効にする必要があります。以下をご覧ください。 |
 | `showLikes` | _未設定_ | 記事とリストのいいねを表示するかどうかです。これには Firebase 統合を有効にする必要があります。以下をご覧ください。 |
@@ -249,7 +250,7 @@ Blowfish は、テーマの機能を制御する多数の設定パラメータ�
 | `article.invertPagination` | `false` | 次/前の記事リンクの方向を反転するかどうかです。 |
 | `article.showReadingTime` | `true` | 記事の読了時間を表示するかどうかです。 |
 | `article.showTableOfContents` | `false` | 記事に目次を表示するかどうかです。 |
-| `article.showRelatedContent` | `false` | 各投稿の関連記事を表示します。`config.toml` に追加の設定が必要になる場合があります。この機能を有効にする場合は、テーマの `config.toml` を確認し、関連するすべての _related_ エントリをコピーしてください。また、関連記事については [Hugo のドキュメント](https://gohugo.io/content-management/related/) も確認してください。 |
+| `article.showRelatedContent` | `false` | 各投稿の関連記事を表示します。`hugo.toml` に追加の設定が必要になる場合があります。この機能を有効にする場合は、テーマの `hugo.toml` を確認し、関連するすべての _related_ エントリをコピーしてください。また、関連記事については [Hugo のドキュメント](https://gohugo.io/content-management/related/) も確認してください。 |
 | `article.relatedContentLimit` | `3` | `showRelatedContent` がオンになっている場合に表示する関連記事の上限です。 |
 | `article.showTaxonomies` | `false` | この記事に関連するタクソノミーを表示するかどうかです。 |
 | `article.showAuthorsBadges` | `false` | `authors` タクソノミーを記事またはリストのヘッダーに表示するかどうかです。これには、「複数の著者」と `authors` タクソノミーの設定が必要です。この機能の設定方法の詳細については、[このページ]({{< ref "multi-author" >}}) を確認してください。 |

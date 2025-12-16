@@ -36,7 +36,7 @@ showTableOfContents: true
 ## Active Projects  
 
 We’re currently focused on enhancing and gathering feedback for:  
-- **Building a mSCP App** 🖥️  
+- **Building M.A.C.E. App** 🖥️  
 - **Update existing projects** 🖥️ 
  
 ---
@@ -45,8 +45,9 @@ We’re currently focused on enhancing and gathering feedback for:
 
 {{< timeline >}}  
 
-{{< timelineItem icon="edit" header="mSCP App" badge="August 2025" subheader="" >}}  
+{{< timelineItem icon="edit" header="M.A.C.E. App" badge="August 2025" subheader="" >}}  
 I am currently developing my first app designed to empower Mac Admins to create compliances dynamically using mSCP. This project is tailored for the upcoming mSCP 2.0 release and will introduce innovative features not found in any existing tool. The app will enable users to import existing compliances, modify both imported and newly created compliances, build custom rules, and seamlessly provide feedback to the mSCP team for expanding compliance options.
+{{< github repo="Mace-App/MACE" showThumbnail=false >}}  
 {{< /timelineItem >}}  
 
 {{< /timeline >}}  

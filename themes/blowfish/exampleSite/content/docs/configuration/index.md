@@ -27,14 +27,14 @@ npx blowfish-tools
 The default theme configuration is documented in each file so you can freely adjust the settings to meet your needs.
 
 {{< alert >}}
-As outlined in the [installation instructions]({{< ref "/docs/installation#set-up-theme-configuration-files" >}}), you should adjust your theme configuration by modifying the files in the `config/_default/` folder of your Hugo project and delete the `config.toml` file in your project root.
+As outlined in the [installation instructions]({{< ref "/docs/installation#set-up-theme-configuration-files" >}}), you should adjust your theme configuration by modifying the files in the `config/_default/` folder of your Hugo project and delete the `hugo.toml` file in your project root.
 {{< /alert >}}
 
 ## Site configuration
 
 Standard Hugo configuration variables are respected throughout the theme, however there are some specific things that should be configured for the best experience.
 
-The site configuration is managed through the `config/_default/config.toml` file. The table below outlines all the settings that the Blowfish takes advantage of.
+The site configuration is managed through the `config/_default/hugo.toml` file. The table below outlines all the settings that the Blowfish takes advantage of.
 
 Note that the variable names provided in this table use dot notation to simplify the TOML data structure (ie. `outputs.home` refers to `[outputs] home`).
 
@@ -170,12 +170,13 @@ Many of the article defaults here can be overridden on a per article basis by sp
 
 | Name | Default | Description |
 | --- | --- | --- |
-| `colorScheme` | `"blowfish"` | The theme colour scheme to use. Valid values are `blowfish` (default), `avocado`, `fire`, `ocean`, `forest`, `princess`, `neon`, `bloody`, `terminal`, `marvel`, `noir`, `autumn`, `congo`, and`slate`. Refer to the [Colour Schemes]({{< ref "getting-started#colour-schemes" >}}) section for more details. |
+| `colorScheme` | `"blowfish"` | The theme colour scheme to use. Valid values are `blowfish` (default), `avocado`, `fire`, `ocean`, `forest`, `princess`, `neon`, `bloody`, `terminal`, `marvel`, `noir`, `autumn`, `congo`, `slate`, `github`, and `one-light`. Refer to the [Colour Schemes]({{< ref "getting-started#colour-schemes" >}}) section for more details. |
 | `defaultAppearance` | `"light"` | The default theme appearance, either `light` or `dark`. |
 | `autoSwitchAppearance` | `true` | Whether the theme appearance automatically switches based upon the visitor's operating system preference. Set to `false` to force the site to always use the `defaultAppearance`. |
 | `enableA11y`                   | `false`      | Whether to enable the accessibility toggle button. |
 | `enableSearch` | `false` | Whether site search is enabled. Set to `true` to enable search functionality. Note that the search feature depends on the `outputs.home` setting in the [site configuration](#site-configuration) being set correctly. |
 | `enableCodeCopy` | `false` | Whether copy-to-clipboard buttons are enabled for `<code>` blocks. The `highlight.noClasses` parameter must be set to `false` for code copy to function correctly. Read more about [other configuration files](#other-configuration-files) below. |
+| `enableStructuredBreadcrumbs` | `false` | Whether to add [BreadcrumbList](https://developers.google.com/search/docs/appearance/structured-data/breadcrumb) for SEO. Do NOT enable this if your content path does not match the URL, i.e., complex [URL setting](https://gohugo.io/content-management/urls/). |
 | `replyByEmail` | `false` | Whether the reply-by-email link is enabled after post. The `params.author.email` parameter in `config/_default/languages.en.toml` must be set. |
 | `forgejoDefaultServer` | _Not set_ | The default `server` parameter for the `forgejo` shortcode. |
 | `giteaDefaultServer` | _Not set_ | The default `server` parameter for the `gitea` shortcode. |
@@ -255,7 +256,7 @@ Many of the article defaults here can be overridden on a per article basis by sp
 | `article.invertPagination` | `false` | Whether or not to flip the direction of the next/previous article links. |
 | `article.showReadingTime` | `true` | Whether or not article reading times are displayed. |
 | `article.showTableOfContents` | `false` | Whether or not the table of contents is displayed on articles. |
-| `article.showRelatedContent` | `false` | Display related content for each post. Might required additional configuration to your `config.toml`. Please check the theme `config.toml` if you want to enable this feature and copy all the relevant _related_ entries. Also check [Hugo's docs](https://gohugo.io/content-management/related/) on related content. |
+| `article.showRelatedContent` | `false` | Display related content for each post. Might required additional configuration to your `hugo.toml`. Please check the theme `hugo.toml` if you want to enable this feature and copy all the relevant _related_ entries. Also check [Hugo's docs](https://gohugo.io/content-management/related/) on related content. |
 | `article.relatedContentLimit` | `3` | Limit of related articles to display if `showRelatedContent` is turned on. |
 | `article.showTaxonomies` | `false` | Whether or not all the taxonomies related to this article are displayed. |
 | `article.showCategoryOnly` | `false` | Whether or not the "category" taxonomy is displayed. `showTaxonomies` should be `false` when this param is used, otherwise duplicates will appear. |

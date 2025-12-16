@@ -890,7 +890,7 @@
       "Personal site"
     ]
   },
-{
+  {
     "title": "metalhearf.fr",
     "url": "https://metalhearf.fr",
     "source": "n/a",
@@ -899,7 +899,7 @@
       "Personal site"
     ]
   },
-  {  
+  {
     "title": "encelo.github.io",
     "url": "https://encelo.github.io/",
     "source": "https://github.com/encelo/encelo.github.io",
@@ -915,4 +915,36 @@
     "tags": [
       "Project site"
     ]
+  },
+  {
+    "title": "István Merza",
+    "url": "https://www.merza.is/",
+    "source": "https://gitlab.com/istvanmerza/istvanmerza.gitlab.io",
+    "tags": [
+      "Personal site",
+      "Blog",
+      "Tech Blog",
+      "Fun Project",
+      "Learning"
+    ]
+  },
+  {
+    "title": "daytaur.com",
+    "url": "https://daytaur.com/",
+    "source": "n/a",
+    "tags": [
+      "Portfolio",
+      "Environment design"
+    ]
+  },
+  {
+    "title": "zzamboni.org",
+    "url": "https://zzamboni.org/",
+    "source": "https://gitlab.com/zzamboni/zzamboni.org",
+    "tags": [
+      "Personal site",
+      "Blog",
+      "Technology Blog"
+    ]
   }
+]
