@@ -1,6 +1,8 @@
 ---
 showHero: true
 showTableOfContents: false
+title: "About Us"
+description: "Meet the creator of CoCoLabs - Cody K., a Mac admin passionate about open-source tools for the Apple admin community."
 ---
 
 <div style="text-align: center; background-color:rgba(240, 244, 248, 0.47); padding: 40px 20px; border-radius: 8px;">

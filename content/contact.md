@@ -1,3 +1,8 @@
+---
+title: "Contact"
+description: "Get in touch with CoCoLabs via email, LinkedIn, GitHub, or the MacAdmins Slack community."
+---
+
 <div style="text-align: center; background-color: rgba(240, 244, 248, 0.47); padding: 2rem; border-radius: 10px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);">
 
   <h1 style="font-size: 3rem; margin-bottom: 1rem;">📬 Contact Me</h1>

@@ -9,11 +9,16 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-logo = "cocolab_logo_transparent.png"
+logo = "cocolab_logo_transparent.webp"
+secondaryLogo = "cocolab_logo_transparent.webp"
 description = "Empowering Mac Admins with Open-Source Solutions."
 
 [params.author]
   name = "CoCoLabs"
   email = "cocopuff2u@yahoo.com"
-  image = "cocolab_logo_transparent.png"
+  image = "cocolab_logo_transparent.webp"
   headline = "Empowering Mac Admins with Open-Source Solutions."
+
+[params.social]
+  twitter = ""
+  og_image = "og-image.png"

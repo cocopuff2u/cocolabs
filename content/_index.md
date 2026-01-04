@@ -1,6 +1,7 @@
 ---
 showHero: true
 showTableOfContents: true
+description: "CoCoLabs - Open-source tools and resources for Mac admins. Home of MOFA, BOFA, CaC for Mac, and M.A.C.E. App."
 ---
 
 ### Our Projects
@@ -73,6 +74,7 @@ showTableOfContents: true
     </div>
     <div class="links">
       <a href="https://github.com/Mace-App/MACE" target="_blank">M.A.C.E. Repo</a>
+      <a href="https://getmace.com" target="_blank">M.A.C.E. Website</a>
     </div>
   </div>
 </div>

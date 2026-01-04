@@ -1,3 +1,8 @@
+---
+title: "Mac Admin Resources"
+description: "Curated collection of essential Mac admin resources - documentation, tools, communities, scripts, and GitHub repositories for macOS management."
+---
+
 # **Mac Admin Resources**
 
 This page lists essential resources for Mac administrators, including documentation, tools, communities, and GitHub repositories to help manage, troubleshoot, and automate tasks on macOS.

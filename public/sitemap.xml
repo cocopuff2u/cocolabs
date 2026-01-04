@@ -18,17 +18,12 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/future_projects/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/home/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/mac_admins/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/future_projects/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

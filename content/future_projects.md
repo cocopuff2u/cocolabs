@@ -1,6 +1,8 @@
 ---
 showHero: true
 showTableOfContents: true
+title: "Projects"
+description: "Track CoCoLabs project progress - active development, upcoming releases, and completed open-source tools for Mac admins."
 ---
 
 <div style="text-align: center; margin-top: 20px; font-family: 'Arial', sans-serif;">
@@ -45,9 +47,10 @@ We’re currently focused on enhancing and gathering feedback for:
 
 {{< timeline >}}  
 
-{{< timelineItem icon="edit" header="M.A.C.E. App" badge="August 2025" subheader="" >}}  
-I am currently developing my first app designed to empower Mac Admins to create compliances dynamically using mSCP. This project is tailored for the upcoming mSCP 2.0 release and will introduce innovative features not found in any existing tool. The app will enable users to import existing compliances, modify both imported and newly created compliances, build custom rules, and seamlessly provide feedback to the mSCP team for expanding compliance options.
-{{< github repo="Mace-App/MACE" showThumbnail=false >}}  
+{{< timelineItem icon="edit" header="M.A.C.E. App" badge="August 2025" subheader="" >}}
+I am currently developing my first app designed to empower Mac Admins to create compliances dynamically using mSCP. This project is tailored for the upcoming mSCP 2.0 release and will introduce innovative features not found in any existing tool. The app will enable users to import existing compliances, modify both imported and newly created compliances, build custom rules, and seamlessly provide feedback to the mSCP team for expanding compliance options.<br>
+<a href="https://getmace.com" target="_blank">{{< icon "link" >}} Visit M.A.C.E. Website</a>
+{{< github repo="Mace-App/MACE" showThumbnail=false >}}
 {{< /timelineItem >}}  
 
 {{< /timeline >}}  
