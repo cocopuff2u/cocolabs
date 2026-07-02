@@ -38,7 +38,7 @@ description: "Track CoCoLabs project progress - active development, upcoming rel
 ## Active Projects  
 
 We’re currently focused on enhancing and gathering feedback for:  
-- **Building M.A.C.E. App** 🖥️  
+- **Enhancing M.A.C.E. App** 🖥️  
 - **Update existing projects** 🖥️ 
  
 ---
@@ -47,10 +47,9 @@ We’re currently focused on enhancing and gathering feedback for:
 
 {{< timeline >}}  
 
-{{< timelineItem icon="edit" header="M.A.C.E. App" badge="August 2025" subheader="" >}}
-I am currently developing my first app designed to empower Mac Admins to create compliances dynamically using mSCP. This project is tailored for the upcoming mSCP 2.0 release and will introduce innovative features not found in any existing tool. The app will enable users to import existing compliances, modify both imported and newly created compliances, build custom rules, and seamlessly provide feedback to the mSCP team for expanding compliance options.<br>
-<a href="https://getmace.com" target="_blank">{{< icon "link" >}} Visit M.A.C.E. Website</a>
-{{< github repo="Mace-App/MACE" showThumbnail=false >}}
+{{< timelineItem icon="edit" header="MILO (working name)" badge="Coming Soon" subheader="Mac Intelligent Log Observer · Sneak Peek" >}}
+Spitballing my next app idea: a fast, friendly way to read most (or any) macOS logs in a nicer format and comb through them with quick filters. It would export cleanly with personal details like serial numbers and IP addresses stripped out, so high-compliance folks can share logs without the risk. A companion lightweight app could be deployed to users to grab their logs instantly, no more walking someone through Terminal step by step. Still early and no GitHub yet, but stay tuned! 🔍<br>
+<em>If you're curious and want to learn more, reach out… since you snooped this far to go looking. 😏</em>
 {{< /timelineItem >}}  
 
 {{< /timeline >}}  
@@ -60,6 +59,28 @@ I am currently developing my first app designed to empower Mac Admins to create 
 ## Completed Projects  
 
 {{< timeline >}}  
+
+{{< timelineItem icon="check" header="M.A.C.E. App" badge="June 2026" subheader="" >}}  
+Released M.A.C.E. v1.0, a native macOS app that empowers Mac Admins to create, manage, and audit compliance baselines dynamically using NIST's mSCP 2.0. Development is ongoing with new features and improvements. 🚀 <br>
+<a href="https://getmace.com" target="_blank">{{< icon "link" >}} Visit M.A.C.E. Website</a>
+{{< github repo="Mace-App/MACE" showThumbnail=false >}}  
+{{< /timelineItem >}} 
+
+{{< timelineItem icon="check" header="MACE STIG Hub" badge="February 2026" subheader="" >}}  
+Released MACE STIG Hub, a native macOS app to launch STIG Viewer 2 and 3 with no Java install, no recompiling, and no hassle. 🚀 <br>
+{{< github repo="MACE-App/MACE-STIG-Hub" showThumbnail=false >}}  
+{{< /timelineItem >}} 
+
+{{< timelineItem icon="check" header="M.A.C.E. Website" badge="December 2025" subheader="" >}}  
+Launched getmace.com, the official website for the M.A.C.E. App. 🌍 <br>
+<a href="https://getmace.com" target="_blank">{{< icon "link" >}} Visit M.A.C.E. Website</a>
+{{< github repo="MACE-App/MACE_Website" showThumbnail=false >}}  
+{{< /timelineItem >}} 
+
+{{< timelineItem icon="edit" header="M.A.C.E. App — Development Started" badge="August 2025" subheader="" >}}  
+Began developing M.A.C.E., my first app, designed to empower Mac Admins to create compliances dynamically using mSCP. Built for the mSCP 2.0 release, it lets users import existing compliances, modify imported and new ones, build custom rules, and send feedback to the mSCP team to expand compliance options. 🛠️ <br>
+{{< github repo="Mace-App/MACE" showThumbnail=false >}}  
+{{< /timelineItem >}} 
 
 {{< timelineItem icon="check" header="mSCP Website" badge="July 2025" subheader="" >}}  
 Redesigned the mSCP website to be more user friendly along with added content<br>
