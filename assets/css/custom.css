@@ -70,8 +70,10 @@ img {
   }
 
   .dark .project-card {
-    background: #512B7A; /* Dark background for dark mode */
+    background: #3E2566; /* Mid violet: darker than the background but not too heavy */
     color: #ffffff; /* Ensure text color is readable */
+    border: 1px solid rgba(255, 255, 255, 0.12); /* Hairline edge for crisp separation */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45); /* Elevate above the background */
   }
 
 /* links outside project-card */
