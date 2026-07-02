@@ -63,7 +63,7 @@ Spitballing my next app idea: a fast, friendly way to read most (or any) macOS l
 {{< timelineItem icon="check" header="M.A.C.E. App" badge="June 2026" subheader="" >}}  
 Released M.A.C.E. v1.0, a native macOS app that empowers Mac Admins to create, manage, and audit compliance baselines dynamically using NIST's mSCP 2.0. Development is ongoing with new features and improvements. 🚀 <br>
 <a href="https://getmace.com" target="_blank">{{< icon "link" >}} Visit M.A.C.E. Website</a>
-{{< github repo="Mace-App/MACE" showThumbnail=false >}}  
+{{< github repo="MACE-App/MACE" showThumbnail=false >}}  
 {{< /timelineItem >}} 
 
 {{< timelineItem icon="check" header="MACE STIG Hub" badge="February 2026" subheader="" >}}  
@@ -79,7 +79,7 @@ Launched getmace.com, the official website for the M.A.C.E. App. 🌍 <br>
 
 {{< timelineItem icon="edit" header="M.A.C.E. App — Development Started" badge="August 2025" subheader="" >}}  
 Began developing M.A.C.E., my first app, designed to empower Mac Admins to create compliances dynamically using mSCP. Built for the mSCP 2.0 release, it lets users import existing compliances, modify imported and new ones, build custom rules, and send feedback to the mSCP team to expand compliance options. 🛠️ <br>
-{{< github repo="Mace-App/MACE" showThumbnail=false >}}  
+{{< github repo="MACE-App/MACE" showThumbnail=false >}}  
 {{< /timelineItem >}} 
 
 {{< timelineItem icon="check" header="mSCP Website" badge="July 2025" subheader="" >}}  
